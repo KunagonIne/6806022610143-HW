@@ -1,0 +1,72 @@
+@keyframes example {
+       0%   { color: red; }
+  14%  { color: orange; }
+  28%  { color: yellow; }
+  42%  { color: green; }
+  57%  { color: blue; }
+  71%  { color: indigo; }
+  85%  { color: violet; }
+  100% { color: red; } 
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  height: 50px;
+  width: auto;
+  font-size: 10;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, td {
+    border-color: rgb(0, 0, 0);
+}
+
+
+html, pre {
+    font-family: "Playpen Sans Thai", cursive;
+}
+
+a , a:visited {
+    color:#FF601C;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#FF758C;
+    text-decoration: none;
+    cursor:pointer
+}
+
+a:active{
+    color:red;
+    text-decoration: none;
+}
+
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+
+.column {
+  padding: 5px;
+}
+
+.borded {
+    border-radius: 25px;
+}
+
+
+
+.rainbow {
+    color: blue;
+    animation: example 10s linear infinite;
+   
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Thai:wght@100..800&display=swap');

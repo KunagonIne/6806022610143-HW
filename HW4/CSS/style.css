@@ -1,4 +1,4 @@
-@keyframes example {
+@keyframes RAINBOW {
        0%   { color: red; }
   14%  { color: orange; }
   28%  { color: yellow; }
@@ -34,14 +34,9 @@ a , a:visited {
 }
 
 a:hover{
-    color:#FF758C;
+    animation: RAINBOW 2s linear infinite;
     text-decoration: none;
     cursor:pointer
-}
-
-a:active{
-    color:red;
-    text-decoration: none;
 }
 
 
@@ -63,7 +58,7 @@ a:active{
 
 .rainbow {
     color: blue;
-    animation: example 10s linear infinite;
+    animation: RAINBOW 10s linear infinite;
    
 }
 
